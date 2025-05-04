@@ -46,7 +46,7 @@ mv openssl-OpenSSL_1_1_1 openssl
 
 # 下载 nginx
 cd /usr/src/
-nginx_v='1.17.3'
+nginx_v='1.25.3'
 wget https://nginx.org/download/nginx-${nginx_v}.tar.gz
 tar zxvf ./nginx-${nginx_v}.tar.gz 
 mv nginx-${nginx_v} nginx
